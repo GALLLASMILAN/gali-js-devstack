@@ -1,0 +1,21 @@
+{
+    "name": "@onio/03_output",
+    "version": "1.0.0",
+    "description": "So far we've manually included all our assets in our index.html file, but as your application grows and once you start using hashes in filenames and outputting multiple bundles, it will be difficult to keep managing your index.html file manually. However, a few plugins exist that will make this process much easier to manage.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "rm -rf ./dist && npx webpack",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "webpack --watch",
+        "start": "webpack-dev-server --open"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "html-webpack-plugin": "^3.2.0",
+        "webpack": "^4.29.5",
+        "webpack-cli": "^3.2.3",
+        "webpack-dev-server": "^3.2.1"
+    }
+}
